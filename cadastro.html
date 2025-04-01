@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="icon" type="image/png" href="img/js.png"> 
+
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="content">
+                <form action="" method="post">
+                    <h1>Nos ajude a melhorar nosso site!</h1>
+                    <p>Nos diga o que você achou do nosso site. Sua opinião é muito importante para nós!</p>
+
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" name="nome" placeholder="Nome completo" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+
+
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="Telefone" required>
+
+
+                    <label for="design">Você gostou do design do site?</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="design" value="sim"> Sim</label>
+                        <label><input type="radio" name="design" value="nao"> Não</label>
+                    </div>
+                    
+                    <label for="navegacao">A navegação do site é fácil?</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="navegacao" value="sim"> Sim</label>
+                        <label><input type="radio" name="navegacao" value="nao"> Não</label>
+                    </div>
+                    
+                    
+                    <label for="comentarios">O que podemos melhorar? (Deixe seu comentário)</label>
+                    <textarea id="comentarios" name="comentarios" rows="4" placeholder="Digite aqui seus comentários"></textarea>
+                    
+                    <a href="index.html">
+                        <button type="submit" class="form-button">Enviar Feedback</button>
+
+                    </a>
+                </form>
+                
+            </div>
+        </div>
+
+        <div class="image-container">
+            <a href="index.html">
+                <img src="imagem.webp" alt="Imagem de cadastro">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
